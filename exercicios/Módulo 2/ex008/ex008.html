@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando um link</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        a {
+            font-weight: bold;
+            text-decoration: none;
+            color: red;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .especial:hover {
+            color: white;
+            background-color: black;
+            text-decoration: none;
+        }
+        .especial::before {
+            content: '>';
+            font-weight: lighter;
+        }
+
+        .especial::after {
+            content: '<';
+            font-weight: lighter;
+        }
+
+    </style>
+</head>
+<body>
+    <p>
+        Para ouvir a música Inquilina, acesse 
+        <a href="https://www.youtube.com/watch?v=9-ZXTYKAeUI&ab_channel=XandAvi%C3%A3o" target="_blank" class="especial"> Aviões - Inquilina</a>
+    </p>
+    <p>
+        Se quiser ouvir Amor de fim de noite, acesse 
+        <a href="https://www.youtube.com/watch?v=jBE_X3cMCyM&ab_channel=Orochi" target="_blank"> Orochi - Amor de fim de noite</a>
+    </p>
+</body>
+</html>

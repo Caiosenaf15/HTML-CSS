@@ -1,0 +1,43 @@
+/*Fonte importada do Google*/
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@font-face {
+    font-family: 'Panton';
+    src: url('fonts/PantonRustHeavy-GrSh.otf') format('opentype'), url('fonts/PantonRustHeavy-GrSh.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    /*
+    Tipos de format()
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded-opentype
+    - truetype-aat (Apple Advanced Typography)
+    - svg
+    */
+}
+body {
+    text-align: justify;
+    font-family: Geologica, sans-serif;
+    /*
+    Medidas Absolutas
+    cm, mm, in, px, pt, pc
+
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+
+    */
+    font-size: 1em;
+    font-variant: normal;
+    
+}
+h1{
+    font-family: Panton, sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+h2 {
+    font-family: Pacifico;
+}
+p {
+    text-indent: 20px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <picture>
+        <source media="(max-width: 718px)" srcset="pequeno.jpg" type="image/png">
+        <source media="(max-width: 1018px)" srcset="medio.jpg" type="image/png">
+        <img src="grande.jpg" alt="Grande">
+    </picture>
+    <audio preload="metadata" controls> 
+        <source src="Kevin O Chris, MC Caja - Papin #TamborzaoRaiz--online-audio-convert.com.mp3" type="audio/mpeg">
+        <p>Não carrega</p>
+    </audio>
+    <video width="406" height="720" poster="pequeno.jpg" controls>
+        <source srcset="pexels-polina-kovaleva-7587012-2160x3840-30fps.mp4" type="video/mp4">
+        <p>Não funciona</p>
+    </video>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Qr_0547VH58" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
