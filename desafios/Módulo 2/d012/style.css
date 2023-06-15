@@ -1,13 +1,4 @@
-@font-face {
-    font-family: cordel;
-    src: url(fonts/GosmickSansBold.ttf);
-    format: truetype;
-}
-@font-face {
-    font-family: titulo;
-    src: url(fonts/artegra-sans-condensed-sc-black.otf);
-    format: opentype;
-}
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +14,7 @@ header {
 header > h1 {
     font-size: 60px;
     text-align: center;
-    font-family: titulo;
+    font-family: 'Passion One', cursive;
 }
 header > h2 {
     font-size: 15px;
@@ -36,7 +27,7 @@ header > h2 {
 main {
     background-color: black;
     line-height: 50px;
-    font-family: cordel, sans-serif;
+    font-family: 'Sriracha', sans-serif;
 }
 #primeiro_cordel {
     background-color: white;
@@ -48,9 +39,9 @@ main {
     background-image: url(imagens/background001.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: right;
     background-size: cover;
-    max-height: 500px;
+    max-height: 400px;
     padding: 100px 0px;
     font-size: 30px;
 }
@@ -74,9 +65,8 @@ main {
     background-image: url(imagens/background002.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
     background-size: cover;
-    max-height: 500px;
+    max-height: 400px;
     padding: 100px 0px;
     font-size: 30px;
 }
