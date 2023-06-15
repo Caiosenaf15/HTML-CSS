@@ -28,34 +28,35 @@ main {
     background-color: black;
     line-height: 50px;
     font-family: 'Sriracha', sans-serif;
+    font-size: 25px;
+    
 }
 #primeiro_cordel {
     background-color: white;
-    padding: 100px 20px;
-    font-size: 30px;
+    padding: 80px 20px;
 }
 #segundo_cordel_com_imagem {
     background-color: white;
     background-image: url(imagens/background001.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: right;
+    background-position: center;
     background-size: cover;
     max-height: 400px;
-    padding: 100px 0px;
-    font-size: 30px;
+    padding: 80px 0px;
+
 }
 #segundo_cordel_com_imagem > p {
+    padding: 10px;
     width: fit-content;
-    padding: 5px;
     background-color: rgba(0, 0, 0, 0.301);
     backdrop-filter: blur(4px);
     color: white;
 }
 #terceiro_cordel {
     background-color: white;
-    padding: 100px 20px;
-    font-size: 30px;
+    padding: 80px 20px;
+
 }
 #terceiro_cordel > p { 
     padding-top: 50px;
@@ -65,10 +66,11 @@ main {
     background-image: url(imagens/background002.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
     background-size: cover;
     max-height: 400px;
-    padding: 100px 0px;
-    font-size: 30px;
+    padding: 80px 0px;
+
 }
 #quarto_cordel_com_imagem > p {
     width: fit-content;
@@ -79,8 +81,8 @@ main {
 }
 #quinto_cordel {
     background-color: white;
-    padding: 100px 20px;
-    font-size: 30px;
+    padding: 80px 20px;
+
 }
 #quinto_cordel > p {
     padding-top: 50px;
