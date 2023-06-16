@@ -12,12 +12,12 @@ header {
     
 }
 header > h1 {
-    font-size: 60px;
+    font-size: 10vw;
     text-align: center;
     font-family: 'Passion One', cursive;
 }
 header > h2 {
-    font-size: 15px;
+    font-size: 1.5vw;
     text-align: center;
     font-weight: 200;
 }
@@ -26,9 +26,9 @@ header > h2 {
 }
 main {
     background-color: black;
-    line-height: 50px;
+    line-height: 200%;
     font-family: 'Sriracha', sans-serif;
-    font-size: 25px;
+    font-size: 3.5vw;
     
 }
 #primeiro_cordel {
@@ -42,8 +42,8 @@ main {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    max-height: 400px;
-    padding: 80px 0px;
+    max-height: 1200px;
+    padding: 80px 10px;
 
 }
 #segundo_cordel_com_imagem > p {
@@ -68,8 +68,8 @@ main {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    max-height: 400px;
-    padding: 80px 0px;
+    max-height: 1200px;
+    padding: 80px 10px;
 
 }
 #quarto_cordel_com_imagem > p {
