@@ -63,6 +63,7 @@ main {
     width: fit-content;
     background-color: rgba(0, 0, 0, 0.301);
     backdrop-filter: blur(4px);
+    border-radius: 10px;
     color: white;
 }
 #terceiro_cordel {
@@ -84,6 +85,7 @@ main {
 }
 #quarto_cordel_com_imagem > p {
     width: fit-content;
+    border-radius: 10px;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.301);
     backdrop-filter: blur(4px);
