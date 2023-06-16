@@ -22,7 +22,12 @@ header > h2 {
     font-weight: 200;
 }
 #nome {
+    color: white;
+    text-decoration: none;
     font-weight: bold;
+}
+#nome:hover {
+    text-decoration: underline;
 }
 main {
     background-color: black;
