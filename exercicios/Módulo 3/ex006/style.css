@@ -1,0 +1,27 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+td, th {
+    padding: 5px 20px;
+    border: 1px solid black;
+}
+.titulo {
+    background-color: gray;
+    color: white;
+}
+thead {
+    background-color: gray;
+    color: white;
+}
+#media {
+    padding-left: 5px;
+    text-align: left;
+}
+#materia {
+    padding-left: 5px;
+    text-align: left;
+}
