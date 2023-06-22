@@ -80,3 +80,11 @@ iframe {
     transform: translate(-120%);
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.466);
 }
+#botao_home > a > img {
+    position: relative;
+    margin: 540px 10px 15px 183px;
+    width: 48px;
+    border-radius: 100%;
+    transform: translate(-120%);
+    opacity: 0;
+}
