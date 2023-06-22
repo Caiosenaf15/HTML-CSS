@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(imagens/fundo-madeira.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#celular {
+    position: absolute;
+    background-image: url(imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 600px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+iframe {
+    position: absolute;
+    margin: 77px 10px 10px 21px;
+    height: 457px;
+    width: 259px;
+}
+#home > a > img {
+    position: relative;
+    width: 50px;
+    border-radius: 100%;
+    top: 100px;
+    left: 100vw;
+    transform: translate(-120%);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.466);
+}
+#youtube > a > img {
+    position: relative;
+    width: 50px;
+    border-radius: 100%;
+    top: 120px;
+    left: 100vw;
+    transform: translate(-120%);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.466);
+}
+#github > a > img {
+    position: relative;
+    width: 50px;
+    border-radius: 100%;
+    top: 140px;
+    left: 100vw;
+    transform: translate(-120%);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.466);
+}
+#instagram > a > img {
+    position: relative;
+    width: 50px;
+    border-radius: 100%;
+    top: 160px;
+    left: 100vw;
+    transform: translate(-120%);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.466);
+}
+#twitter > a > img {
+    position: relative;
+    width: 50px;
+    border-radius: 100%;
+    top: 180px;
+    left: 100vw;
+    transform: translate(-120%);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.466);
+}
+#facebook > a > img {
+    position: relative;
+    width: 50px;
+    border-radius: 100%;
+    top: 200px;
+    left: 100vw;
+    transform: translate(-120%);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.466);
+}
