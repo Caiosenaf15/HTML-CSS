@@ -3,17 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>facebook</title>
+    <title>Facebook</title>
     <style>
         * {
             margin: 0;
             padding: 0;
         }
         body {
-            height: 300vh;
+            height: 2488px;
             background-image: url(../imagens/tela-facebook.jpg);
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
+        }
+        body::-webkit-scrollbar {
+            width: 5px;
+        }
+        body::-webkit-scrollbar-track {
+            background-color: rgb(255, 255, 255);
+        }
+        body::-webkit-scrollbar-thumb {
+            background-color: lightgray;
+            border-radius: 20px;
+            border: 2px solid rgb(255, 255, 255);
         }
     </style>
 </head>

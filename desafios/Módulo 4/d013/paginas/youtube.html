@@ -10,10 +10,21 @@
             padding: 0;
         }
         body {
-            height: 300vh;
+            height: 1257px;
             background-image: url(../imagens/tela-youtube.png);
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
+        }
+        body::-webkit-scrollbar {
+            width: 5px;
+        }
+        body::-webkit-scrollbar-track {
+            background-color: rgb(41, 41, 41);
+        }
+        body::-webkit-scrollbar-thumb {
+            background-color: lightgray;
+            border-radius: 20px;
+            border: 2px solid rgb(41, 41, 41);
         }
     </style>
 </head>

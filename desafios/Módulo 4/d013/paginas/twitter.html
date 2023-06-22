@@ -10,10 +10,21 @@
             padding: 0;
         }
         body {
-            height: 555vh;
+            height: 2664px;
             background-image: url(../imagens/tela-twitter.jpg);
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
+        }
+        body::-webkit-scrollbar {
+            width: 5px;
+        }
+        body::-webkit-scrollbar-track {
+            background-color: rgb(0, 0, 0);
+        }
+        body::-webkit-scrollbar-thumb {
+            background-color: lightgray;
+            border-radius: 20px;
+            border: 2px solid black;
         }
     </style>
 </head>
