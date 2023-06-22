@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script>
+            function greet()
+            {
+                alert('Cadastro realizado');
+                window.location.href="inicio.html"
+            }
+        </script>
+        <link href="teste.css" rel="stylesheet">
+        <title>
+            Cadastro
+        </title>
+    </head>
+    <body class = "centered">
+        <header>
+            <h1>Cadastro</h1>
+        </header>
+
+        <p>Nome <input autocomplete="off" id="nome" type="text"></p>
+        <p>Senha <input autocomplete="off" id="senha" type="text"></p>
+        <p>E-mail <input autocomplete="off" id="email" type="text"></p>
+        <form onsubmit="greet(); return false">
+            <button>Cadastro</button>
+        </form>
+    </body>
+</html>

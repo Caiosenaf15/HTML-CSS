@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8"> <!--Para sites em portugues, que utilizam acentos, ç...-->
+        <meta name="viewport"
+        content="width=device-width,
+        initial-scale=1.0">
+        <script>
+
+            document.addEventListener('DOMContentLoaded', function() {
+                document.querySelector('#cadastrar').onclick = function() {
+                    window.location.href="cadastro.html";
+                };
+                document.querySelector('#login').onclick = function () {
+                    window.location.href="login.html";
+                };
+            });
+
+        </script>
+        <link href="teste.css" rel="stylesheet">
+        <title>
+            Teste
+        </title>
+    </head>
+    <body class="centered">
+        <header>
+            <h1 class="titulo">Homepage</h1>
+        </header>
+        <input autocomplete="off" placeholder="Usuário" id="usuario" type="text"><br>
+        <input autocomplete="off" placeholder="Senha" id="senha" type="text">
+        <p>
+            <button class="botoes" id="cadastrar">Cadastrar</button> &nbsp;&nbsp;
+            <button class="botoes" id="login">Login</button>
+        </p>
+    </body>
+</html>
