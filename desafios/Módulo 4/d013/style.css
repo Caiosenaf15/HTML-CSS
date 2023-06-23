@@ -22,63 +22,44 @@ body {
 }
 iframe {
     position: absolute;
-    margin: 77px 10px 10px 21px;
-    height: 457px;
-    width: 259px;
+    margin: 75px 10px 10px 20px;
+    height: 460px;
+    width: 260px;
+}
+nav > div > a > img {
+    position: relative;
+    width: 50px;
+    border-radius: 100%;
+    left: 100vw;
+    transform: translate(-120%);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.466);
+    
+}
+nav > div > a > img:hover{
+    transition: 2s;
+    border: 1px solid white;
+}
+nav > div > a > img:hover {
+    width: 55px;
+    transition: 0.5s;
 }
 #home > a > img {
-    position: relative;
-    width: 50px;
-    border-radius: 100%;
     top: 100px;
-    left: 100vw;
-    transform: translate(-120%);
-    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.466);
 }
 #youtube > a > img {
-    position: relative;
-    width: 50px;
-    border-radius: 100%;
     top: 120px;
-    left: 100vw;
-    transform: translate(-120%);
-    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.466);
 }
 #github > a > img {
-    position: relative;
-    width: 50px;
-    border-radius: 100%;
     top: 140px;
-    left: 100vw;
-    transform: translate(-120%);
-    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.466);
 }
 #instagram > a > img {
-    position: relative;
-    width: 50px;
-    border-radius: 100%;
     top: 160px;
-    left: 100vw;
-    transform: translate(-120%);
-    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.466);
 }
 #twitter > a > img {
-    position: relative;
-    width: 50px;
-    border-radius: 100%;
     top: 180px;
-    left: 100vw;
-    transform: translate(-120%);
-    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.466);
 }
 #facebook > a > img {
-    position: relative;
-    width: 50px;
-    border-radius: 100%;
     top: 200px;
-    left: 100vw;
-    transform: translate(-120%);
-    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.466);
 }
 #botao_home > a > img {
     position: relative;
