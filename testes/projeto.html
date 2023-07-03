@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .botao {
+            position: absolute;
+            height: 200px;
+            width: 500px;
+            background-color: rgb(56, 56, 56);
+            border-radius: 200px;
+            box-shadow: 0px 0px 20px black inset;
+        }
+        button {
+            position: relative;
+            background-color: rgb(255, 255, 255);
+            border: 0;
+            width: 150px;
+            height: 150px;
+            top: 100px;
+            left: 100px;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.384);
+            transition: 1.5s;
+            
+        }
+        button:hover {
+            background-color: rgb(0, 0, 0);
+            top: 100px;
+            left: 400px;
+            box-shadow: -7px 7px 8px rgba(0, 0, 0, 0.384);
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="botao">
+        <button></button>
+    </div>
 </body>
 </html>
