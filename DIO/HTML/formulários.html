@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro</title>
+    <style>
+        input {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" onsubmit="alert('Formulário enviado')" name="signup">
+        <label for="iname">Name: </label> <input type="text" name="name" id="iname"><br>
+        <label for="iidade">Idade: </label> <input type="number" name="idade" id="iidade"><br>
+        <label for="isenha">Senha: </label><input type="password" name="senha" id="isenha"><br>
+        <label for="inota">Nota: </label><input type="range" name="nota" id="inota" min="0" max="5" value="2"><br>
+        <label for="iemail">Email: </label><input type="email" name="email" id="iemail"><br>
+        <label for="icargo">Cargo: </label>
+        <select name="cargo" id="icargo">
+            <option value="" selected disabled>Selecione o cargo</option>
+            <option value="advogado">Advogado</option>
+            <option value="arquiteto">Arquiteto</option>
+            <option value="dentista">Dentista</option>
+            <option value="engenheiro">Engenheiro</option>
+            <option value="médico">Médico</option>
+            <option value="professor">Professor</option>
+
+        </select><br>
+        <input type="submit" value="Enviar">
+    </form>
+    <div>
+        <h2>Exemplo pizzaria</h2>
+        <form action="">
+            <p>Quais opcionais você deseja?</p>
+            <input type="checkbox" name="opcional[]" id="ical"><label for="ical">+ Calabresa</label><br>
+            <input type="checkbox" name="opcional[]" id="ique"><label for="ique">+ Queijo</label><br>
+            <input type="checkbox" name="opcional[]" id="icel"><label for="icel">+ Cebola</label><br>
+            <input type="checkbox" name="opcional[]" id="iaze"><label for="iaze">+ Azeitona</label><br>
+            
+            <p>Borda recheada?</p>
+            <input type="radio" name="borda" id="isim"><label for="isim">Sim</label><br>
+            <input type="radio" name="borda" id="inao"><label for="inao">Não</label><br>
+
+            <p>Bebida</p>
+            <input type="radio" name="bebida" id="iref"><label for="iref">Refrigerante</label><br>
+            <input type="radio" name="bebida" id="iagu"><label for="iagu">Água</label><br>
+            <input type="radio" name="bebida" id="isuc"><label for="isuc">Suco</label><br>
+            <input type="radio" name="bebida" id="inem"><label for="inem">Nenhum</label><br>
+            <input type="submit" value="Enviar">
+
+        </form>
+    </div>
+</body>
+</html>
