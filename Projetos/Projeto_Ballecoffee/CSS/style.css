@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(80, 40, 35);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+#logo {
+    display: flex;
+    font-size: 10px;
+    padding: 5px;
+}
+#menu > ul > li {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+main {
+    background-color: rgb(99, 69, 69);
+}
+
+footer {
+    background-color: brown;
+}
