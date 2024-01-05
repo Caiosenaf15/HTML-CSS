@@ -22,7 +22,7 @@ Estudante de Sistemas de Informação
 
 ### Meus Principais Desafios de Projeto DIO
 [![Repo HTML-CSS](https://github-readme-stats.vercel.app/api/pin/?username=Caiosenaf15&repo=HTML-CSS&bg_color=FFF&border_color=0CB1F2&show_icons=true&icon_color=0CB1F2&title_color=E13B89&text_color=212121)](https://github.com/Caiosenaf15/HTML-CSS)
-[![Repo JavaScript](https://github-readme-stats.vercel.app/api/pin/?username=Caiosenaf15&repo=JavaScript&bg_color=FFF&border_color=0CB1F2&show_icons=true&icon_color=0CB1F2&title_color=E13B89&text_color=212121)](https://github.com/Caiosenaf15/dio-lab-open-source)
+[![Repo JavaScript](https://github-readme-stats.vercel.app/api/pin/?username=Caiosenaf15&repo=JavaScript&bg_color=FFF&border_color=0CB1F2&show_icons=true&icon_color=0CB1F2&title_color=E13B89&text_color=212121)](https://github.com/Caiosenaf15/JavaScript)
 
 ### Meus Principais Projetos
 <table>
