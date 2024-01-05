@@ -36,7 +36,7 @@ Estudante de Sistemas de Informação
     <tr>
       <td>Site Cordel Moderno  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</td>
       <td align="center">
-        <a href="https://caiosenaf15.github.io/HTML-CSS/CursoEmVideo/desafios/Módulo%202/d012/d012.html" target="_blank">
+        <a href="https://caiosenaf15.github.io/HTML-CSS/CursoEmVideo/desafios/Módulo%202/d012/d012.html" target="blank">
            <img align="center" alt="Ver Projeto" src="https://img.shields.io/badge/Ver%20Projeto-0CB1F2?style=for-the-badge">
         </a>
       </td>
@@ -44,7 +44,7 @@ Estudante de Sistemas de Informação
     <tr>
       <td>Site Android</td>
       <td align="center">
-        <a href="https://caiosenaf15.github.io/HTML-CSS/CursoEmVideo/desafios/Módulo%202/d010/d010.html" target="_blank">
+        <a href="https://caiosenaf15.github.io/HTML-CSS/CursoEmVideo/desafios/Módulo%202/d010/d010.html" target="blank">
            <img align="center" alt="Ver Projeto" src="https://img.shields.io/badge/Ver%20Projeto-E13B89?style=for-the-badge">
         </a>
       </td>
@@ -52,7 +52,7 @@ Estudante de Sistemas de Informação
     <tr>
       <td>Projeto Redes Sociais</td>
       <td align="center">
-        <a href="https://caiosenaf15.github.io/HTML-CSS/CursoEmVideo/desafios/M%C3%B3dulo%204/d013/d013.html" target='_blank'>
+        <a href="https://caiosenaf15.github.io/HTML-CSS/CursoEmVideo/desafios/M%C3%B3dulo%204/d013/d013.html" target='blank'>
            <img align="center" alt="Ver Projeto" src="https://img.shields.io/badge/Ver%20Projeto-0CB1F2?style=for-the-badge">
         </a>
       </td>    
