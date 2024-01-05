@@ -52,7 +52,7 @@ Estudante de Sistemas de Informação
     <tr>
       <td>Projeto Redes Sociais</td>
       <td align="center">
-        <a href="https://web.dio.me/articles/destrave-seu-primeiro-desafio-de-codigo">
+        <a href="https://caiosenaf15.github.io/HTML-CSS/CursoEmVideo/desafios/M%C3%B3dulo%204/d013/d013.html">
            <img align="center" alt="Ver Projeto" src="https://img.shields.io/badge/Ver%20Projeto-0CB1F2?style=for-the-badge">
         </a>
       </td>    
